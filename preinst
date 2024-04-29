@@ -1,0 +1,9 @@
+#!/bin/bash
+
+  #if (( $(vercmp "$2" "16.1.2-2") < 0 )); then
+  cat << EOF
+
+Now VMware services can be activated only when a VM is started by enabling .path units instead of .service units.
+
+EOF
+  #fi

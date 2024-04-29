@@ -1,0 +1,9 @@
+[Unit]
+Description=VMware Manager
+
+[Service]
+Type=forking
+ExecStart=-/sbin/modprobe vmmon
+
+[Install]
+WantedBy=multi-user.target

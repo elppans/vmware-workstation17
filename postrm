@@ -1,0 +1,7 @@
+#!/bin/bash
+
+  cat << EOF
+
+==> To completely clean VMware installation, you may have to manually delete /etc/vmware, /etc/vmware-tools/, /usr/lib/vmware-installer, /usr/share/doc/vmware-workstation and /var/lib/vmware directories if they still exist.
+
+EOF
